@@ -34,7 +34,7 @@ class jn_Facebook
 		echo '
           <table class="form-table">
           <tr>
-				<th>Facebook</th><td style="width:2em"><input type="checkbox" id="jn_EPFBtrack_enable" name="jn_EPFBtrack_enable" '.$this->checkboxSetting().'></td>
+				<th><img src="'.JN_EasyPixels_URL.'/img/fb.png" alt="Facebook" width="20px" style="float:left"><span style="margin-left:.5em"> Facebook</span></th><td style="width:2em"><input type="checkbox" id="jn_EPFBtrack_enable" name="jn_EPFBtrack_enable" '.$this->checkboxSetting().'></td>
 				<td><input value="'.$this->code.'" type="text" id="jn_EPFBtrack_code" name="jn_EPFBtrack_code"></td>
           </tr>
           </table>';

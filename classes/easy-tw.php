@@ -30,7 +30,7 @@ class jn_easypixels_Twitter
 	public function putAdminOptions()
 	{
 		echo '<table class="form-table"><tr>
-				<th>Twitter</th><td style="width:2em"><input type="checkbox" id="jn_EPTwTrack_enable" name="jn_EPTwTrack_enable" '.$this->checkboxSetting().'></td>
+				<th><img src="'.JN_EasyPixels_URL.'/img/twitter.png" alt="twitter" width="20px" style="float:left"><span style="margin-left:.5em"> Twitter</th><td style="width:2em"><input type="checkbox" id="jn_EPTwTrack_enable" name="jn_EPTwTrack_enable" '.$this->checkboxSetting().'></td>
 				<td><input value="'.$this->code.'" type="text" id="jn_EPTwTrack_code" name="jn_EPTwTrack_code"></td>
 			</tr></table>';
 	}

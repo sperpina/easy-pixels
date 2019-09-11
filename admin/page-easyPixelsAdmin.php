@@ -76,7 +76,7 @@
 					$jnEPFB->putAdminOptions();
 					$jn_easypixels_tw->putAdminOptions();
 					$jn_easypixels_LinkedIn->putAdminOptions();
-					echo '<h2 class="title"><br/><img src="'.JN_EasyPixels_URL.'/img/bing.png" alt="Bing" width="40px" style="margin-right:1em">'.__('Bing Ads tracking','easy-pixels-by-jevnet').'</h2>';
+					echo '<h2 class="title" style="text-decoration:underline"><br/>'.__('Other tracking','easy-pixels-by-jevnet').'</h2>';
 					$jnEPBingAds->putAdminOptions();
 					$jn_easypixels_yandex->putAdminOptions();
 				?>

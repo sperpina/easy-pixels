@@ -30,7 +30,7 @@ class jn_easypixels_LinkedIn
 	public function putAdminOptions()
 	{
 		echo '<table class="form-table"><tr>
-				<th>LinkedIn</th><td style="width:2em"><input type="checkbox" id="jn_EPLinkedIn_Track_enable" name="jn_EPLinkedIn_Track_enable" '.$this->checkboxSetting().'></td>
+				<th><img src="'.JN_EasyPixels_URL.'/img/linkedin.png" alt="linkedin" width="20px" style="float:left"><span style="margin-left:.5em"> LinkedIn</th><td style="width:2em"><input type="checkbox" id="jn_EPLinkedIn_Track_enable" name="jn_EPLinkedIn_Track_enable" '.$this->checkboxSetting().'></td>
 				<td><input value="'.$this->code.'" type="text" id="jn_EPLinkedIn_Track_code" name="jn_EPLinkedIn_Track_code"></td>
 			</tr></table>';
 	}
