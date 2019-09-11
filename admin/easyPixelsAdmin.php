@@ -18,6 +18,7 @@ function jn_easypixels_initTrackingOptions()
 	if ( class_exists( 'jn_Facebook' ) ){$jnEPFB=new jn_Facebook();}
 	if ( class_exists( 'jn_easyGAds' ) ){$jnEPGAds=new jn_easyGAds();}
 	if ( class_exists( 'jn_easyBingAds' ) ){$jnEPBingAds=new jn_easyBingAds();}
+	if ( class_exists( 'jn_easyGTagManager' ) ){$jnEP_GTM=new jn_easyGTagManager();}
 	if ( class_exists( 'jn_easypixels_Twitter' ) ){$jn_easypixels_tw=new jn_easypixels_Twitter();}
 	if ( class_exists( 'jn_easypixels_Yandex' ) ){$jn_easypixels_yandex=new jn_easypixels_Yandex();}
 	if ( class_exists( 'jn_easypixels_LinkedIn' ) ){$jn_easypixels_LinkedIn=new jn_easypixels_LinkedIn();}
@@ -31,6 +32,7 @@ function jn_easypixels_saveSettings()
 	if ( false == get_option( 'jnEasyPixelsSettings-group' ) ) {add_option( 'jnEasyPixelsSettings-group' );}
 	if ( class_exists( 'jn_Analytics' ) ){jn_Analytics::save('jnEasyPixelsSettings-group');}
 	if ( class_exists( 'jn_easyGAds' ) ){jn_easyGAds::save('jnEasyPixelsSettings-group');}
+	if ( class_exists( 'jn_easyGTagManager' ) ){jn_easyGTagManager::save('jnEasyPixelsSettings-group');}
 	if ( class_exists( 'jn_Facebook' ) ){jn_Facebook::save('jnEasyPixelsSettings-group');}
 	if ( class_exists( 'jn_easyBingAds' ) ){jn_easyBingAds::save('jnEasyPixelsSettings-group');}
 	if ( class_exists( 'jn_easypixels_Twitter' ) ){jn_easypixels_Twitter::save('jnEasyPixelsSettings-group');}

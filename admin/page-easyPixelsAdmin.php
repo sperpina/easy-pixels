@@ -67,6 +67,7 @@
 					settings_fields('jnEasyPixelsSettings-group');
 					echo '<h2 class="title"><br/><img src="'.JN_EasyPixels_URL.'/img/google.png" alt="Google" width="40px" style="margin-right:1em">'.__('Google tracking','easy-pixels-by-jevnet').'</h2>';
 					$jnEPGA->putAdminOptions();
+					$jnEP_GTM->putAdminOptions();
 					$jnEPGAds->putAdminOptions();
 					echo '<h2 class="title"><br/><img src="'.JN_EasyPixels_URL.'/img/share.png" alt="Social" width="40px" style="margin-right:1em">'.__('Social tracking','easy-pixels-by-jevnet').'</h2>
 					          <table class="form-table">

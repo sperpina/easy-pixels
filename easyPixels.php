@@ -3,7 +3,7 @@
 Plugin Name: Easy Pixels by JEVNET
 Plugin URI: https://es.wordpress.org/plugins/easy-pixels-by-jevnet/
 Description: Put Analytics, Adwords, Facebook, Yandex, Bing, LinkedIn, Twitter, tracking codes
-Version: 1.7.1
+Version: 1.7.2
 Author: JEVNET
 Author URI: https://www.jevnet.es
 License: GPLv2 or later
@@ -37,6 +37,7 @@ include(JN_EasyPixels_PATH."/classes/easy-bing.php");
 include(JN_EasyPixels_PATH."/classes/easy-yandex.php");
 include(JN_EasyPixels_PATH."/classes/easy-tw.php");
 include(JN_EasyPixels_PATH."/classes/easy-linkedin.php");
+include(JN_EasyPixels_PATH."/classes/easy-gTagManager.php");
 
 
 if(is_admin())
@@ -63,6 +64,7 @@ function jn_easypixels_headerTracking()
 	if ( class_exists( 'jn_easyGAds' ) ){$jnGAds=new jn_easyGAds();}
 	if ( class_exists( 'jn_Facebook' ) ){$jnFB=new jn_Facebook();}
 	if ( class_exists( 'jn_easyBingAds' ) ){$jnBing=new jn_easyBingAds();}
+	if ( class_exists( 'jn_easyGTagManager' ) ){$jnBing=new jn_easyGTagManager();}
 	if ( class_exists( 'jn_easypixels_Twitter' ) ){$jn_easypixels_tw=new jn_easypixels_Twitter();}
 	if ( class_exists( 'jn_easypixels_Yandex' ) ){$jn_easypixels_yandex=new jn_easypixels_Yandex();}
 	if ( class_exists( 'jn_easypixels_LinkedIn' ) ){$jn_easypixels_LinkedIn=new jn_easypixels_LinkedIn();}
