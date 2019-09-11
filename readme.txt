@@ -22,6 +22,8 @@ You can install these extensions too:
 - [Easy Pixels CF7 extension](https://wordpress.org/plugins/easy-pixels-contact-form-extension-by-jevnet/) supports tracking for the ["Contact Form 7" plugin](https://es.wordpress.org/plugins/contact-form-7/) form submissions.
 - [Woocommerce extension](https://wordpress.org/plugins/easy-pixels-ecommerce-extension-by-jevnet/) supports tracking for ["Woocommerce" plugin](https://es.wordpress.org/plugins/woocommerce/).
 
+== Screenshots ==
+1. The admin interface
 
 == Installation ==
 
@@ -33,7 +35,9 @@ Nothing else!
 
 == Changelog ==
 
-icon
+= 1.7.2 =
+New menu icon
+Admin interface changes
 
 = 1.7.1 =
 *Release Date - 04 Sept 2019*
